@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="CSS/myCss.css">
+</head>
+
+<body class="bg-black">
+    <!-- loader -->
+    <div class="inner-loading-screen top-0 start-0 end-0 bottom-0 justify-content-center align-items-center" style="display: none;">
+        <i class="fa fa-spinner fa-spin fa-5x"></i>
+    </div>
+    <!-- sidebar -->
+    <div class="sideBar vh-100 d-flex position-fixed">
+
+        <div class="closeBar  bg-black px-5 d-flex  flex-column justify-content-between vh-100">
+            <ul class="list-unstyled py-5">
+                <li id="search"><a  href="#">Search</a></li>
+                <li id="category"><a href="#">Category</a></li>
+                <li id="area"><a href="#">Area</a></li>
+                <li id="ingredients"><a href="#">Ingredients</a></li>
+                <li id="contactUs"><a href="#">Contact Us</a></li>
+            </ul>
+            <div class="closeBar-footer text-white ">
+                <div class="footer-icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-solid fa-globe "></i>
+                </div>
+                <p>Copyright Â© 2019 All Rights
+                    Reserved.</p>
+            </div>
+        </div>
+        <div class="openBar bg-white d-flex flex-column justify-content-between vh-100 text-center ">
+            <img src="pics/logo.png" alt="">
+            <i class="fa-solid fa-bars open"></i>
+            <div class="iconBox d-flex flex-column pb-5">
+                <i class="fa-solid fa-globe my-2"></i>
+                <i class="fa-solid fa-share-nodes"></i>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------------------------------------------------------------- -->
+    <!-- homepage -->
+    <section>
+        <div class="container py-5">
+            <div class="row gy-3 " id="meals">
+
+            </div>
+        </div>
+    </section>
+    <!-- ------------------------------------------------------------------------------- -->
+    <section>
+        <div class="container py-5">
+            <div class="row gy-3  " id="searchMeals">
+
+            </div>
+        </div>
+    </section>
+    
+
+
+
+
+
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/jquery-3.7.1.min.js"></script>
+    <script src="JS/myJs.js"></script>
+</body>
+
+</html>
